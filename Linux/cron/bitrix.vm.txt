@@ -74,4 +74,9 @@ systemctl restart crond.service
 ..
 Исполнять test.php каждые пять минут
 */5 * * * * /usr/bin/php -f /home/bitrix/www/test.php
-
+Исполнять test.php каждые пятьдесят пять минут
+*/55 * * * * /usr/bin/php -f /home/bitrix/www/test.php
+Исполнять test.php каждый час
+0 */1 * * * * /usr/bin/php -f /home/bitrix/www/test.php
+Исполнять test.php каждые три часа
+0 */3 * * * * /usr/bin/php -f /home/bitrix/www/test.php
